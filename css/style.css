@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #faf8f8;
+}
+
+/* Logo */
+.logo-chanquia-tamara {
+    height: 80px;
+}
+
+/* Navegación */
+.nav-bar {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #ffcc00;
+}
